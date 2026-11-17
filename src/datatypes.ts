@@ -66,7 +66,7 @@ console.log(lap);
 // keyof usage
 
 type Person = { name: string; age: number };
-let key: keyof Person = "name,age";
+let key: keyof Person = "name";
 console.log(key);
 
 
